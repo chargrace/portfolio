@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio
 
-## Getting Started
+Welcome to my portfolio! This repository showcases my skills, projects, and the work I've done in the tech industry. Here you will find various personal and professional projects demonstrating my abilities as a developer.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. [About Me](#about-me)
+2. [Technologies](#technologies)
+3. [Projects](#projects)
+   - [Project 1](#project-1)
+   - [Project 2](#project-2)
+4. [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## About Me
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Hi, I'm Charlotte, an enthusiastic developer with expertise in fullstack applications. I am always eager to learn and take on new challenges. Currently, I'm focusing on creating a fullstack Chinese language learning companion app. You can explore some of my work below.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+These are the technologies and tools I'm proficient in:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Languages**: JavaScript, Typescript, PostgresSQL,
+- **Frameworks**: React, Node.js, Next.js, etc.
+- **Tools**: Git, Docker, Figma, etc.
+- **Databases**: PostgreSQL,
+- **Other**: REST APIs, Storybook, Playwright, Jest/Vitest
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Projects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Project 1 - [Project Name](link-to-project)
+
+- **Description**: A brief description of what this project is about and what problem it solves.
+- **Technologies Used**: [Technology 1, Technology 2, ...]
+- **Live Demo**: [Link to live demo if available]
+- **GitHub Repo**: [Link to GitHub repository]
+
+#### Key Features:
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+### Project 2 - [Project Name](link-to-project)
+
+- **Description**: A brief description of what this project is about and what problem it solves.
+- **Technologies Used**: [Technology 1, Technology 2, ...]
+- **Live Demo**: [Link to live demo if available]
+- **GitHub Repo**: [Link to GitHub repository]
+
+#### Key Features:
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+_(Add more projects as necessary)_
+
+---
+
+## License
+
+This portfolio is open-source, released under the [MIT License](LICENSE).
