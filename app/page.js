@@ -6,6 +6,7 @@ import Projects from "../components/projects";
 import Contact from "../components/contact";
 import Navbar from "../components/navbar";
 import styles from "./page.module.css";
+import SkillsContainer from "../components/skillsContainer";
 
 export default function Home() {
   const sectionRefs = useRef([]);
@@ -19,10 +20,15 @@ export default function Home() {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.2 }
     );
 
-    sectionRefs.current.forEach((ref) => observer.observe(ref));
+    sectionRefs.current.forEach((ref) => {
+      if (ref) {
+        observer.observe(ref);
+        console.log(`observibg section ${ref.id}`);
+      }
+    });
 
     return () => observer.disconnect();
   }, []);
@@ -42,15 +48,22 @@ export default function Home() {
           <About />
         </section>
         <section
-          id="projects"
+          id="skills"
           ref={(el) => (sectionRefs.current[1] = el)}
+          className={styles.section}
+        >
+          <SkillsContainer />
+        </section>
+        <section
+          id="projects"
+          ref={(el) => (sectionRefs.current[2] = el)}
           className={styles.section}
         >
           <Projects />
         </section>
         <section
           id="contact"
-          ref={(el) => (sectionRefs.current[2] = el)}
+          ref={(el) => (sectionRefs.current[3] = el)}
           className={styles.section}
         >
           <Contact />
