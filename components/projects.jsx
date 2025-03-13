@@ -8,7 +8,7 @@ const projects = [
 export default function Projects() {
   return (
     <section className={styles.projects}>
-      <h2>My Projects</h2>
+      <h2 className={styles.title}>My Projects</h2>
       <div className={styles.projectGrid}>
         {projects.map((project) => (
           <div key={project.id} className={styles.projectCard}>

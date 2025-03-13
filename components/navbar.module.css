@@ -4,7 +4,7 @@
     align-items: center;
     gap: 2rem;
     padding: 1rem;
-    background-color: #f0f0f0;
+    background-color: #F1E3D3;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -12,7 +12,7 @@
   }
   
   .navbar a {
-    color: #333333;
+    color: #1B4D3E;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -25,7 +25,7 @@
   .navbar a:hover,
   .navbar a.active {
     background-color: var(--primary-color);
-    color: white;
+    color: #F1E3D3;
   }
   
   

@@ -20,3 +20,24 @@
     flex-direction: column;
     flex: 1;
 }
+.stackItem {
+    display: inline-flex; /* Make the element only as wide as its content */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    padding: 0.5rem 1rem; /* Add some padding around the text */
+    border-radius: 20px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.stackItem:hover {
+ /* background-color: #1B4D3E;
+ color: #F1E3D3;
+ border-radius: 20px;
+ width: 80%;
+ display: flex;
+ justify-content: center; */
+ background-color: #1B4D3E; /* Green background on hover */
+    color: #F1E3D3; /* Change text color */
+    width: auto; /* Ensure width adjusts based on content */
+    transform: scale(1.05); /* Slightly increase size on hover for effect */
+}

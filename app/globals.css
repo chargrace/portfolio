@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #006400;
-  --secondary-color: #004d00;
-  --accent-color: #00b300;
-  --background-color: #ffffff;
-  --text-color: #333333;
-  --light-gray: #f8f9fa;
-  --title-color: #004d00; /* Dark green for titles */
+  --primary-color: #E07A5F;
+  --secondary-color: #E07A5F;
+  --accent-color: #F1E3D3;
+  --background-color: #690B22;
+  --text-color: #1B4D3E;
+  --light-gray: #F1E3D3;
+  --title-color: black; /* Dark green for titles */
 }
 
 html,

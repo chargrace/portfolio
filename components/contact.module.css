@@ -74,8 +74,10 @@
   }
   
   .form button:hover {
-    background-color: #333333; /* Black background on hover */
+    background-color: #1B4D3E; /* Black background on hover */
     color: white; /* White text on hover */
     transform: translateY(-2px);
+
+  
   }
   
