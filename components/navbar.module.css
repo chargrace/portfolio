@@ -3,8 +3,10 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding: 30px;
+    margin-bottom: 0px;
     padding: 1rem;
-    background-color: #F1E3D3;
+    background-color: white;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -12,20 +14,20 @@
   }
   
   .navbar a {
-    color: #1B4D3E;
+    color: black;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     transition: background-color 0.3s ease, color 0.3s ease;
-    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", serif;
   }
   
   .navbar a:hover,
   .navbar a.active {
-    background-color: var(--primary-color);
-    color: #F1E3D3;
+    background: var(--colour-gradient);
+    color: white;
   }
   
   

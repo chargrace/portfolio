@@ -1,12 +1,12 @@
 .container {
     display: flex;
-    padding: 4rem 0;
     background-color: var(--light-gray);
-    border-radius: 10px;
-    margin: 2rem 0;
-    padding:30px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 90px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+    font-family: "Poppins", serif;
 }
 
 .TechStack {
@@ -36,8 +36,9 @@
  width: 80%;
  display: flex;
  justify-content: center; */
- background-color: #1B4D3E; /* Green background on hover */
-    color: #F1E3D3; /* Change text color */
+ background: var(--colour-gradient); /* Green background on hover */
+    color: white; /* Change text color */
+    font-weight: 300;
     width: auto; /* Ensure width adjusts based on content */
     transform: scale(1.05); /* Slightly increase size on hover for effect */
 }

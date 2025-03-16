@@ -1,3 +1,12 @@
+.text {
+  font-family: "Poppins", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font: weight 100px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -5,13 +14,14 @@
   flex-grow: 1;
 }
 
-.section {
+.container .section {
   opacity: 0;
+  min-height: 100px;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.section.visible {
+.container .section.visible {
   opacity: 1;
   transform: translateY(0);
 }
@@ -20,5 +30,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #F1E3D3;
+  color: black;
+  font-family: "Poppins", serif;
 }

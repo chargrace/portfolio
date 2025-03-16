@@ -1,5 +1,7 @@
 .projects {
-    padding: 4rem 0;
+  padding: 30px;
+  margin: 40px;
+    font-family: "Poppins", serif;
   }
   
   .projects h2 {
@@ -7,6 +9,7 @@
     margin-bottom: 2rem;
     font-size: 2.5rem;
     text-align: center;
+    font-family: "Poppins", serif;
   }
   
   .projectGrid {
@@ -16,16 +19,19 @@
   }
   
   .projectCard {
-    background-color: white;
+     background-color: rgb(250, 247, 247);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: "Poppins", serif;
   }
   
   .projectCard:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-width: 5px;
+    border-color: #e71b36;
   }
   
   .projectCard h3 {
@@ -34,14 +40,16 @@
     padding: 1.5rem;
     background-color: var(--light-gray);
     font-size: 1.4rem;
+    font-family: "Poppins", serif;
   }
   
   .projectCard p {
     padding: 1.5rem;
     margin: 0;
+    font-family: "Poppins", serif;
   }
 
   .title {
-    color: #F1E3D3;
+    font-family: "Poppins", serif;
   }
   

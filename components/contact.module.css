@@ -1,15 +1,23 @@
 .contact {
     padding: 4rem 0;
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--colour-gradient);
+    color: var(--colour-gradient);
+    font-family: "Poppins", serif;
+    border-radius: 20px;
   }
   
   .contact h2 {
-    color: var(--accent-color);
+    color: var(--colour-gradient);
     margin-bottom: 2rem;
     font-size: 2.5rem;
     text-align: center;
   }
+
+  .contact h2:hover {
+    background: var(--colour-gradient); /* Ensure the gradient is applied on hover */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
   
   .form {
     display: flex;
@@ -17,6 +25,7 @@
     gap: 1.5rem;
     max-width: 600px;
     margin: 0 auto;
+    font-family: "Poppins", serif;
   }
   
   .formGroup {
@@ -25,9 +34,10 @@
   }
   
   .form label {
-    color: white;
+    color: black;
     font-weight: 600;
     margin-bottom: 0.5rem;
+    font-family: "Poppins", serif;
   }
   
   .form input,
@@ -39,24 +49,34 @@
     color: #333333;
     font-size: 1rem;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
-    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", serif;
   }
   
   .form input:focus,
   .form textarea:focus {
     outline: none;
-    border-color: var(--accent-color);
+    border-color: var(--colour-gradient); 
     box-shadow: 0 0 0 2px rgba(0, 179, 0, 0.1); /* Subtle glow effect */
   }
+
+  .form input:hover {
+    border-width:2px;
+    background-origin: border-box; /* Ensure the gradient is applied to the border */
+  background-clip: padding-box, border-box; /* Clip the gradient to the border */
+  background-image: linear-gradient(white, white), var(--colour-gradient); /* Gradient border with white background inside */
+}
+  
   
   .form input::placeholder,
   .form textarea::placeholder {
     color: #999999;
+    font-family: "Poppins", serif;
   }
   
   .form textarea {
     min-height: 150px; /* Ensure the textarea is taller than inputs */
     resize: vertical; /* Allow vertical resizing */
+    font-family: "Poppins", serif;
   }
   
   .form button {
@@ -69,14 +89,15 @@
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", serif;
     align-self: flex-start; /* Align button to the left */
   }
   
   .form button:hover {
-    background-color: #1B4D3E; /* Black background on hover */
+    background: var(--colour-gradient); /* Black background on hover */
     color: white; /* White text on hover */
     transform: translateY(-2px);
+    font-family: "Poppins", serif;
 
   
   }

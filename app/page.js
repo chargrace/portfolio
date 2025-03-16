@@ -7,6 +7,8 @@ import Contact from "../components/contact";
 import Navbar from "../components/navbar";
 import styles from "./page.module.css";
 import SkillsContainer from "../components/skillsContainer";
+import Footer from "@/components/footer";
+// import Header from "@/components/header";
 
 export default function Home() {
   const sectionRefs = useRef([]);
@@ -17,16 +19,18 @@ export default function Home() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add(styles.visible);
+          } else {
+            entry.target.classList.remove(styles.visible);
           }
         });
       },
-      { threshold: 0.2 }
+      { threshold: 0.5}
     );
 
     sectionRefs.current.forEach((ref) => {
       if (ref) {
         observer.observe(ref);
-        console.log(`observibg section ${ref.id}`);
+        console.log(`observing section ${ref.id}`);
       }
     });
 
@@ -35,40 +39,32 @@ export default function Home() {
 
   return (
     <>
-      <header className={styles.header}>
-        <h1 className={styles.name}>Charlotte Bell</h1>
-      </header>
       <Navbar />
+          <About />
       <main className={styles.container}>
         <section
-          id="about"
-          ref={(el) => (sectionRefs.current[0] = el)}
-          className={styles.section}
-        >
-          <About />
-        </section>
-        <section
           id="skills"
-          ref={(el) => (sectionRefs.current[1] = el)}
+          ref={(el) => (sectionRefs.current[0] = el)}
           className={styles.section}
         >
           <SkillsContainer />
         </section>
         <section
           id="projects"
-          ref={(el) => (sectionRefs.current[2] = el)}
+          ref={(el) => (sectionRefs.current[1] = el)}
           className={styles.section}
         >
           <Projects />
         </section>
         <section
           id="contact"
-          ref={(el) => (sectionRefs.current[3] = el)}
+          ref={(el) => (sectionRefs.current[2] = el)}
           className={styles.section}
         >
           <Contact />
         </section>
       </main>
+      <Footer />
     </>
   );
 }

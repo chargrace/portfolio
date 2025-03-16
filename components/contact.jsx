@@ -20,7 +20,7 @@ export default function Contact() {
           <textarea id="message" name="message" placeholder="Your Message" required></textarea>
         </div>
 
-        <button type="submit">Send Message</button>
+        <button className={styles.button}type="submit">Send Message</button>
       </form>
     </section>
   )
