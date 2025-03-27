@@ -12,19 +12,25 @@
 .TechStack {
     display: flex;
     flex-direction: column;
+    font-size:xx-large;
+    margin-bottom: 10px;
     flex: 1;
 }
 
 .SoftSkills {
     display: flex;
     flex-direction: column;
+    font-size:xx-large;
+    margin-bottom: 5px;
     flex: 1;
 }
 .stackItem {
+    margin-top: 5px;
     display: inline-flex; /* Make the element only as wide as its content */
     justify-content: center; /* Center the text horizontally */
     align-items: center; /* Center the text vertically */
     padding: 0.5rem 1rem; /* Add some padding around the text */
+    font-size:large;
     border-radius: 20px; /* Rounded corners */
     transition: all 0.3s ease; /* Smooth transition for hover effect */
 }

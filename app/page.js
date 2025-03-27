@@ -24,7 +24,7 @@ export default function Home() {
           }
         });
       },
-      { threshold: 0.5}
+      { threshold: 0.3}
     );
 
     sectionRefs.current.forEach((ref) => {
@@ -40,25 +40,33 @@ export default function Home() {
   return (
     <>
       <Navbar />
-          <About />
       <main className={styles.container}>
         <section
-          id="skills"
+          id="about"
           ref={(el) => (sectionRefs.current[0] = el)}
+          className={styles.section}
+        >
+          <About/>
+        </section>
+          
+      {/* <main className={styles.container}> */}
+        <section
+          id="skills"
+          ref={(el) => (sectionRefs.current[1] = el)}
           className={styles.section}
         >
           <SkillsContainer />
         </section>
         <section
           id="projects"
-          ref={(el) => (sectionRefs.current[1] = el)}
+          ref={(el) => (sectionRefs.current[2] = el)}
           className={styles.section}
         >
           <Projects />
         </section>
         <section
           id="contact"
-          ref={(el) => (sectionRefs.current[2] = el)}
+          ref={(el) => (sectionRefs.current[3] = el)}
           className={styles.section}
         >
           <Contact />
