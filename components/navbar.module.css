@@ -21,7 +21,7 @@
     padding: 0.5rem 1rem;
     border-radius: 4px;
     transition: background-color 0.3s ease, color 0.3s ease;
-    font-family: "Poppins", serif;
+    font-family: "Inter", serif;
   }
   
   .navbar a:hover,

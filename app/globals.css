@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -84,7 +84,7 @@ html,
 body {
   padding: 0px;
   margin: 0px;
-  font-family: "Poppins", serif;
+  font-family: "Inter", serif;
   background: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
