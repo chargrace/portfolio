@@ -12,8 +12,9 @@ import {
 } from "@/components/ui/card"
 
 const projects = [
-  { id: 1, title: "Chinese idiom app", description: "A Next.js app with static API created to allow users to search through a bank of chinese idioms easily.", links: "https://idiom-app.vercel.app/", linktext: "See website here " },
-  { id: 2, title: "Movie recommendation app", description: "A Next.js application created to make searching for movie and TV show recommendations easier and without a user-friendly interface.", linktext: "Deployment coming soon" },
+  { id: 1, title: "Happy hands", description: "A task management app for families that uses a customisable reward system to help children build better habits. ", links: "https://final-project-404-bra.vercel.app/", linktext: "See website here" },
+   { id: 2, title: "Chinese idiom app", description: "A Next.js app with static API created to allow users to search through a bank of chinese idioms easily.", links: "https://idiom-app.vercel.app/", linktext: "See website here " },
+  { id: 3, title: "Movie recommendation app", description: "A Next.js application created to make searching for movie and TV show recommendations easier and without a user-friendly interface.", linktext: "Deployment coming soon" },
 ]
 
 export default function Projects() {
